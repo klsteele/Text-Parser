@@ -6,7 +6,7 @@ html, body, #page {
 
 @font-face {
  font-family:circuit;
- src: url(CIRCUIT_.ttf); /* TTF file for CSS3 browsers */
+ src: url(fonts/CIRCUIT_.ttf); /* TTF file for CSS3 browsers */
 }
 
 body{
