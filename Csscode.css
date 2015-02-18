@@ -1,0 +1,73 @@
+html, body, #page {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+@font-face {
+ font-family:circuit;
+ src: url(fonts/CIRCUIT_.ttf); /* TTF file for CSS3 browsers */
+}
+
+body{
+background: black;
+}
+
+#page{
+	display: flex;
+	flex-direction: column;
+}
+
+#header{
+height: 100px;
+background: black;
+display: flex;
+flex-grow: 1;
+}
+
+#header, #headertext{
+
+color: lime;
+font-size: 200%;
+font-family: circuit;
+}
+
+#headertext{
+margin: 10px;
+padding: 0px;
+}
+
+#column{
+flex-grow: 1;
+background: black;
+}
+
+#forminput{
+    border-style: double;
+    border-width: 5px;
+background: lime;
+margin: 10px;
+padding: 10px;
+flex-grow: 1;
+}
+
+#output{
+border-style: double;
+border-width: 7px;
+background: lime;
+margin: 10px;
+padding: 10px;
+flex-grow: 1;
+}
+
+
+
+p{
+color: black;
+font-size: 20px
+}
+
+#show, #count, #words, #reverse, #vowel, #cons{
+color: red;
+font-size: 15px;
+}
